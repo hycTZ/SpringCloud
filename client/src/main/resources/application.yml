@@ -1,0 +1,24 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8766
+spring:
+  application:
+    name: client
+  redis:
+    host: 192.168.1.56:6379
+    timeout: 20000
+    password: noah
+    min-idle: 0
+    max-idle: 8
+    max-wait: -1
+    block-when-exhausted: true
+
+  data:
+    mongo:
+      host: 127.0.0.1
+      port: 27017
+      database: config
+
