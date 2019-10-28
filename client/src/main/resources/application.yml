@@ -20,5 +20,14 @@ spring:
     mongo:
       host: 127.0.0.1
       port: 27017
-      database: config
+      database: noah
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/search?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
 
+mybatis:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.noah.client.mapper

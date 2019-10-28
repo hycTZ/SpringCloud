@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35b9828c-e1e5-447c-ab6a-e4a502ee1d8b" name="Default Changelist" comment="" />
+    <list default="true" id="35b9828c-e1e5-447c-ab6a-e4a502ee1d8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/noah/client/mapper/SearchMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/mapper/SearchMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/noah/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/noah/client/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/noah/client/web/HiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/noah/client/web/HiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/com/noah/client/ClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/noah/client/ClientApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/com/noah/client/web/HiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/noah/client/web/HiController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1SdftAFO0IUkzhGRgWzYoAjoKFe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -34,9 +50,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../liveisV1.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/main/resources/mapper" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -45,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SVN\SpringCloud\client\src\main\resources\mapper" />
       <recent name="D:\SVN\SpringCloud\eureka-server\src\main\resources" />
       <recent name="D:\SVN\SpringCloud\eureka-hi\src\main\resources" />
       <recent name="D:\SVN\SpringCloud\client\src\main\resources" />
@@ -72,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.noah.client.ClientApplication" />
@@ -148,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EurekaServerApplication (2)" />
         <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.ServiceHiApplication (1)" />
-        <item itemvalue="Spring Boot.EurekaServerApplication (2)" />
         <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
       </list>
     </recent_temporary>
@@ -168,11 +186,22 @@
       <workItem from="1571898608645" duration="2750000" />
       <workItem from="1571901436719" duration="989000" />
       <workItem from="1571902436504" duration="1061000" />
-      <workItem from="1571903505183" duration="19455000" />
+      <workItem from="1571903505183" duration="22878000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

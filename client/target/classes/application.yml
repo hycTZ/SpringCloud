@@ -7,3 +7,27 @@ server:
 spring:
   application:
     name: client
+  redis:
+    host: 192.168.1.56:6379
+    timeout: 20000
+    password: noah
+    min-idle: 0
+    max-idle: 8
+    max-wait: -1
+    block-when-exhausted: true
+
+  data:
+    mongo:
+      host: 127.0.0.1
+      port: 27017
+      database: noah
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/search?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: mapper/*.xml
+  type-aliases-package: com.noah.client.mapper
